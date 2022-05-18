@@ -1,6 +1,7 @@
 domain: github.com
 layout:
 - go.kubebuilder.io/v3
+multigroup: true
 projectName: kubebuilder-example
 repo: github.com/iblogdev/kubebuilder-example
 version: "3"
