@@ -4,4 +4,14 @@ layout:
 multigroup: true
 projectName: kubebuilder-example
 repo: github.com/iblogdev/kubebuilder-example
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: github.com
+  group: iblog.dev
+  kind: Example
+  path: github.com/iblogdev/kubebuilder-example/apis/iblog.dev/v1
+  version: v1
 version: "3"

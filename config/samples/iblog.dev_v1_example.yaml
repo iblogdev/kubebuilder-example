@@ -1,0 +1,6 @@
+apiVersion: iblog.dev.github.com/v1
+kind: Example
+metadata:
+  name: example-sample
+spec:
+  # TODO(user): Add fields here
